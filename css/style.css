@@ -1,0 +1,235 @@
+.header
+{background: grey;
+ }
+
+.container_header {
+	display: flex;
+	align-items: center;
+	padding: 36px 0 
+}
+.container {
+	width: 1200px;
+	margin: 0 auto; 
+}
+.nav_list
+{
+	display:flex;
+	list-style: none;
+	
+}
+.header_title
+{
+	margin-right: auto;
+}
+.nav_link
+{
+	text-decoration: none;
+	color: #E4E4E4;
+font-family: 'Oswald', sans-serif;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.nav_item
+{
+	margin-right: 60px;
+}
+.nav_link:hover
+{
+	color: aqua;
+}
+.hero-block
+{
+	background: #00C19F;
+}
+
+.hero-block_button
+{
+width: 150px;
+height: 50px;
+flex-shrink: 0;
+border-radius: 6px;
+background: var(--orange, linear-gradient(87deg, #E2A300 4.47%, #E29500 95.53%));
+box-shadow: 0px 2px 13px 0px rgba226, 158, 0, 0.4;
+size: 40px;
+}
+.hero-block_title
+{
+color: #E4E4E4;
+font-family: 'Oswald', sans-serif;
+font-size: 72px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.hero-block_text
+{
+color: #E4E4E4;
+
+font-family: 'Oswald', sans-serif;
+font-size: 20px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+}
+.container_hero-block
+{
+	display: flex;
+	justify-content: space-between;
+}
+.hero-block_content
+{
+	width: 519px;
+}
+.skills_full
+{
+	width: 287px;
+	height: 10px;
+	background: #00C4F0;
+}
+.skills_done
+{
+	width: 278px;
+	height: 10px;
+	background: #2C2C2C;
+}
+.skills_done2
+{
+	width: 263px;
+	height: 10px;
+	background: #2C2C2C;
+}
+.skills_done3
+{
+	width: 287px;
+	height: 10px;
+	background: #2C2C2C;
+}
+.about
+{
+	background: #5F00BD;
+	padding: 20px 0;
+
+}
+.about_content
+{
+	display: flex;	
+	align-items: center;
+	justify-content: space-between;
+}
+.about_title
+{
+	text-align: center;
+}
+.skills_list
+{
+	list-style: none;
+}
+.skills_title
+{
+	color: #E4E4E4;
+
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.skills_name
+{
+
+	color: #E4E4E4;
+
+	font-family: 'Nunito', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.video
+{
+	background: green;
+	padding: 70px 0 134px;
+	text-align: center;
+
+}
+.video_title
+{
+	color: #653535;
+
+	font-family: Nico Moji;
+	font-size: 48px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal
+
+
+}
+.container_gallery
+{
+	background: grey;
+	padding: 70px 0 134px;
+	text-align: center;
+}
+.gallery_title
+{
+	font-family: 'Oswald', sans-serif;
+	font-size: 30px;
+	font-style: normal;
+	font-weight: 400;
+	line-height: normal;
+}
+.gallery_link
+{
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+color: white;
+}
+.gallery_link:hover
+{
+	color: aqua;
+}
+.gallery_list
+{
+	display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+
+}
+.gallery_item
+{
+	width: 33%;
+}
+.gallery_img
+{
+	width: 100%;
+}
+.container_footer
+{
+	background: grey;
+	padding: 10px 50px 10px;
+	display: flex;
+	justify-content: space-between;
+}
+.footer_item
+{
+	list-style: none;
+	display:inline; 
+	margin-right: 30px;	
+}
+.footer_title
+{
+font-family: 'Oswald', sans-serif;
+font-size: 30px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+text-decoration: none;
+color: white;
+}
+
